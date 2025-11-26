@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "jest --coverage",
+    "test": "PORT=4000 jest --coverage",
     "test:watch": "jest --watch"
   },
   "keywords": ["express", "cicd", "hello-world"],
